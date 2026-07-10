@@ -1,0 +1,7 @@
+node_modules/
+*.db
+.env
+server/downloads/*.exe
+server/frontend/dist/
+server/data/
+dist-electron/

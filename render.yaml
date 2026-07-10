@@ -1,0 +1,20 @@
+services:
+  - type: web
+    name: best-quinca
+    env: node
+    region: frankfurt
+    plan: free
+    rootDir: server
+    buildCommand: cd frontend && npm install && npm run build && cd ../backend && npm install
+    startCommand: cd backend && node server.js
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: JWT_SECRET
+        generateValue: true
+      - key: DATA_DIR
+        value: /opt/render/project/data
+    disk:
+      name: bestquinca-data
+      mountPath: /opt/render/project/data
+      sizeGB: 1
