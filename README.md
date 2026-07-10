@@ -1,3 +1,4 @@
+ 
 # 🏪 Best-Quinca — Version Hybride (En ligne + Windows)
 **Par ARIORI Adnel Adedeji Fulbert**
 
@@ -89,3 +90,7 @@ NODE_ENV=production
 ---
 
 *Best-Quinca v1.0.0 — © 2024 ARIORI Adnel Adedeji Fulbert*
+=======
+# Best-Quinca-v2
+Best-Quinca - Gestion des stocks, ventes et clients  dans les Quincallerie .
+
